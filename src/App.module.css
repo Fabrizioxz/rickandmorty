@@ -1,0 +1,8 @@
+.App {
+  padding: 25px;
+  background-color: gray;
+}
+
+.container{
+  border: 8px solid rgba(13, 1 ,9 , 0.801);
+}
