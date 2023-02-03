@@ -9,11 +9,12 @@ export default function Cards(props) {
             characters.map((c)=>{
             return (
                 <Card
+                        id={c.id}
                         name={c.name}
                         species={c.species}
                         gender={c.gender}
                         image={c.image}
-                        onClose={() => window.alert('Emulamos que se cierra la card')}
+                        onClose={()=>props.onClose(c.id)}
                     />
                 )
             })

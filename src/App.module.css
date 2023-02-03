@@ -1,8 +1,8 @@
 .App {
   padding: 25px;
-  background-color: gray;
+  background-color: green;
 }
 
 .container{
-  border: 8px solid rgba(13, 1 ,9 , 0.801);
+  border: 8px solid rgba(0, 0, 0, 0.542);
 }

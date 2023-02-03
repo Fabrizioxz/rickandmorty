@@ -1,15 +1,16 @@
 .card{
-    border: 3px solid blue;
+    border: 3px solid rgb(0, 0, 0);
     width: 22%;
     border-radius: 6px;
     padding: 2px;
     margin: auto;
-    background-color: rgba(0, 0, 255, 0.285);
+    background-color: rgba(235, 235, 246, 0.285);
 }
 img{
     width: 100%;
 }
 .txt{
     text-align: center;
-    color: aliceblue;
+    text-decoration: none;
+    
 }
